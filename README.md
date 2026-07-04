@@ -81,7 +81,7 @@ By the end of Week 1, I had a fully operational SIEM pipeline: endpoints reporti
 ##  Submissions
 
 - 📄 **Documentation:** included in this repository
-- 💼 **LinkedIn Post:** *[link here]*
+- 💼 **LinkedIn Post:** https://www.linkedin.com/posts/duaa-adnan_it-simplera-week-1-report-set-up-exploration-ugcPost-7479186025689391104-5hum/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZXX2kBVoIL7tdPW2-3qH6yuAHAwQAOOec
 
 ---
 
