@@ -18,14 +18,12 @@ This repository documents my work as a **Blue Team Intern** at **ITSimplera Inst
 This README covers **Week 1**, in which I deployed and configured a fully functional SIEM environment using **Wazuh**, connected endpoint agents, and validated security alerting through File Integrity Monitoring (FIM).
 
 ---
-## 📑 Table of Contents
+## Table of Contents
 
 - Week 1 – Task Brief
 - Objective
 - Lab Environment
-- Architecture
 - What I Implemented
-- Deployment Screenshots
 - Challenges & Troubleshooting
 - Tools & Technologies
 - Skills Demonstrated
