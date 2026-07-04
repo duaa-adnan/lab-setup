@@ -1,4 +1,4 @@
-# 🛡️ Blue Team Internship. ITSimplera Institute
+#  Blue Team Internship. ITSimplera Institute
 
 **Week 1 Task: SIEM Deployment & File Integrity Monitoring with Wazuh**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This repository documents my work as a **Blue Team Intern** at **ITSimplera Institute**, undertaken as part of a hands-on Security Operations Center (SOC) internship program. The goal of the internship is to build practical, industry-relevant skills in defensive cybersecurity by working directly with the tools and workflows used in real-world SOC environments.
 
@@ -21,7 +21,7 @@ This README covers **Week 1**, in which I deployed and configured a fully functi
 
 ---
 
-## 🎯 Week 1 — Task Brief
+##  Week 1 — Task Brief
 
 | Detail | Info |
 |---|---|
@@ -33,7 +33,7 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ---
 
-## 🔧 What I Implemented
+##  What I Implemented
 
 - ✅ Deployed the **Wazuh Virtual Appliance** and configured the **Wazuh Manager**
 - ✅ Installed and registered the **Wazuh Agent on a Windows endpoint**
@@ -45,7 +45,7 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ---
 
-## 🖥️ Tools & Technologies
+##  Tools & Technologies
 
 - **Wazuh** (Manager, Agent, and Dashboard)
 - **VirtualBox / Virtual Appliance** for the Wazuh server
@@ -56,7 +56,7 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ---
 
-## 🧠 Skills Gained
+##  Skills Gained
 
 - Hands-on understanding of **SIEM architecture** and centralized log management
 - Practical experience deploying and hardening a security monitoring stack from scratch
@@ -67,29 +67,18 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ---
 
-## 📂 Repository Contents
-
-```
-IT Simplera Screenshots/
-├── Week 1 Task for SOC Interns.pdf     # Official task brief
-├── Screenshot 2026-06-25 ...           # Wazuh appliance deployment
-├── Screenshot 2026-06-26 ...           # Wazuh Manager configuration
-├── Screenshot 2026-06-28 ...           # Agent installation, FIM setup & alert validation
-├── Screenshot 2026-06-29 ...           # Final dashboard verification
-└── WhatsApp Image ...                  # Mentor/cohort discussions & task coordination
-```
 
 Each screenshot corresponds to a discrete stage of the deployment, from spinning up the Wazuh appliance, through agent registration on both operating systems, to the final alert generated and captured after a monitored file was modified.
 
 ---
 
-## 🚀 Outcome
+##  Outcome
 
 By the end of Week 1, I had a fully operational SIEM pipeline: endpoints reporting into a central Wazuh Manager, File Integrity Monitoring actively watching designated paths, and verified alerts flowing through to the dashboard in real time, the essential building block for every SOC workflow that follows.
 
 ---
 
-## 🔗 Submissions
+##  Submissions
 
 - 📄 **Documentation:** included in this repository
 - 💼 **LinkedIn Post:** *[link here]*
