@@ -58,13 +58,13 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ##  What I Implemented
 
-- ✅ Deployed the **Wazuh Virtual Appliance** and configured the **Wazuh Manager**
-- ✅ Installed and registered the **Wazuh Agent on a Windows endpoint**
-- ✅ Installed and registered the **Wazuh Agent on a Linux endpoint**
-- ✅ Configured **File Integrity Monitoring (FIM)** to track file/directory changes in real time
-- ✅ Simulated file-level changes to **trigger and validate security alerts**
-- ✅ Verified end-to-end alert flow on the **Wazuh Dashboard**
-- ✅ Documented every step of the deployment process with supporting screenshots
+-  Deployed the **Wazuh Virtual Appliance** and configured the **Wazuh Manager**
+-  Installed and registered the **Wazuh Agent on a Windows endpoint**
+-  Installed and registered the **Wazuh Agent on a Linux endpoint**
+-  Configured **File Integrity Monitoring (FIM)** to track file/directory changes in real time
+-  Simulated file-level changes to **trigger and validate security alerts**
+-  Verified end-to-end alert flow on the **Wazuh Dashboard**
+-  Documented every step of the deployment process with supporting screenshots
 
 ---
 ##  Challenges & Troubleshooting
