@@ -18,7 +18,20 @@ This repository documents my work as a **Blue Team Intern** at **ITSimplera Inst
 This README covers **Week 1**, in which I deployed and configured a fully functional SIEM environment using **Wazuh**, connected endpoint agents, and validated security alerting through File Integrity Monitoring (FIM).
 
 ---
+## 📑 Table of Contents
 
+- Week 1 – Task Brief
+- Objective
+- Lab Environment
+- Architecture
+- What I Implemented
+- Deployment Screenshots
+- Challenges & Troubleshooting
+- Tools & Technologies
+- Skills Demonstrated
+- Lessons Learned
+- Outcome
+- Documentation
 ---
 
 ##  Week 1 — Task Brief
@@ -33,6 +46,18 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ---
 
+##  Lab Environment
+
+| Component | Details |
+|-----------|----------|
+| Host Machine | Windows 11 |
+| Hypervisor | VMware Workstation |
+| Wazuh Server | Ubuntu Server 22.04 LTS |
+| SIEM Platform | Wazuh |
+| Endpoint 1 | Windows |
+| Endpoint 2 | Ubuntu |
+| Monitoring | File Integrity Monitoring |
+
 ##  What I Implemented
 
 - ✅ Deployed the **Wazuh Virtual Appliance** and configured the **Wazuh Manager**
@@ -44,6 +69,25 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 - ✅ Documented every step of the deployment process with supporting screenshots
 
 ---
+##  Challenges & Troubleshooting
+
+### Challenge
+
+The Wazuh Dashboard installation failed during the first deployment attempt.
+
+### Cause
+
+The virtual machine was allocated only 2 GB RAM, which was insufficient.
+
+### Resolution
+
+- Increased RAM to 4 GB
+- Updated Ubuntu packages
+- Reinstalled Wazuh
+
+### Result
+
+The installation completed successfully and all services became operational.
 
 ##  Tools & Technologies
 
@@ -56,7 +100,7 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 
 ---
 
-##  Skills Gained
+##  Skills Demonstrated
 
 - Hands-on understanding of **SIEM architecture** and centralized log management
 - Practical experience deploying and hardening a security monitoring stack from scratch
@@ -66,7 +110,12 @@ Deploy and configure the **Wazuh SIEM** platform to establish a centralized secu
 - Structuring technical work into clear, professional documentation for stakeholders
 
 ---
+##  Lessons Learned
 
+- Proper VM resource allocation is essential before deploying SIEM platforms.
+- File Integrity Monitoring effectively detects unauthorized file modifications.
+- Successful endpoint registration is critical for centralized monitoring.
+- Troubleshooting and documentation are key parts of SOC operations.
 
 Each screenshot corresponds to a discrete stage of the deployment, from spinning up the Wazuh appliance, through agent registration on both operating systems, to the final alert generated and captured after a monitored file was modified.
 
@@ -78,12 +127,22 @@ By the end of Week 1, I had a fully operational SIEM pipeline: endpoints reporti
 
 ---
 
-##  Submissions
+##  Resources
 
-- 📄 **Documentation:** included in this repository
-- 💼 **LinkedIn Post:** https://www.linkedin.com/posts/duaa-adnan_it-simplera-week-1-report-set-up-exploration-ugcPost-7479186025689391104-5hum/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZXX2kBVoIL7tdPW2-3qH6yuAHAwQAOOec
+📄 Full Technical Report
+
+📷 Screenshots
+
+💼 LinkedIn Post: https://www.linkedin.com/posts/duaa-adnan_it-simplera-week-1-report-set-up-exploration-ugcPost-7479186025689391104-5hum/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZXX2kBVoIL7tdPW2-3qH6yuAHAwQAOOec
 
 ---
+##  Future Improvements
+
+- Integrate Sysmon logging
+- Configure email alerting
+- Create custom detection rules
+- Monitor additional endpoints
+- Expand the SIEM environment
 
 <p align="center"><i>Part of my ongoing journey into Blue Team & SOC operations, building this repository one task at a time.</i></p>
 
