@@ -1,4 +1,4 @@
-# 🛡️ Blue Team Internship — ITSimplera Institute
+# 🛡️ Blue Team Internship. ITSimplera Institute
 
 **Week 1 Task: SIEM Deployment & File Integrity Monitoring with Wazuh**
 
@@ -37,13 +37,10 @@ This README covers **Week 1**, in which I deployed and configured a fully functi
 | Detail | Info |
 |---|---|
 | **Task Type** | Setup + Exploration |
-| **Difficulty** | Beginner |
-| **Released** | June 27, 2026 |
-| **Deadline** | July 4, 2026 |
 | **Role** | Blue Team Intern |
 
 ### Objective
-Deploy and configure the **Wazuh SIEM** platform to establish a centralized security monitoring environment, connect endpoints via the Wazuh Agent, configure **File Integrity Monitoring (FIM)**, and validate that security alerts are generated and captured correctly — laying the foundation for future Blue Team operations.
+Deploy and configure the **Wazuh SIEM** platform to establish a centralized security monitoring environment, connect endpoints via the Wazuh Agent, configure **File Integrity Monitoring (FIM)**, and validate that security alerts are generated and captured correctly, laying the foundation for future Blue Team operations.
 
 ---
 
@@ -93,13 +90,13 @@ IT Simplera Screenshots/
 └── WhatsApp Image ...                  # Mentor/cohort discussions & task coordination
 ```
 
-Each screenshot corresponds to a discrete stage of the deployment — from spinning up the Wazuh appliance, through agent registration on both operating systems, to the final alert generated and captured after a monitored file was modified.
+Each screenshot corresponds to a discrete stage of the deployment, from spinning up the Wazuh appliance, through agent registration on both operating systems, to the final alert generated and captured after a monitored file was modified.
 
 ---
 
 ## 🚀 Outcome
 
-By the end of Week 1, I had a fully operational SIEM pipeline: endpoints reporting into a central Wazuh Manager, File Integrity Monitoring actively watching designated paths, and verified alerts flowing through to the dashboard in real time — the essential building block for every SOC workflow that follows.
+By the end of Week 1, I had a fully operational SIEM pipeline: endpoints reporting into a central Wazuh Manager, File Integrity Monitoring actively watching designated paths, and verified alerts flowing through to the dashboard in real time, the essential building block for every SOC workflow that follows.
 
 ---
 
@@ -107,10 +104,9 @@ By the end of Week 1, I had a fully operational SIEM pipeline: endpoints reporti
 
 - 📄 **Documentation:** included in this repository
 - 💼 **LinkedIn Post:** *[link here]*
-- 💻 **GitHub Repository:** *this repository*
 
 ---
 
-<p align="center"><i>Part of my ongoing journey into Blue Team & SOC operations — building this repository one task at a time.</i></p>
+<p align="center"><i>Part of my ongoing journey into Blue Team & SOC operations, building this repository one task at a time.</i></p>
 
 <p align="center"><b>Duaa Bint E Adnan</b> · Blue Team Intern @ ITSimplera Institute</p>
