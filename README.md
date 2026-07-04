@@ -19,17 +19,6 @@ This README covers **Week 1**, in which I deployed and configured a fully functi
 
 ---
 
-## 🏢 About the Internship
-
-**ITSimplera Institute** runs a structured, project-based internship program designed to simulate the day-to-day responsibilities of a SOC analyst. Interns are evaluated across four dimensions each week:
-
-| Component | Description | Weight |
-|---|---|---|
-| 📄 Documentation | Step-by-step write-up with screenshots and technical explanations | 10% |
-| 💼 LinkedIn Submission | A professional post summarizing the project and its outcomes | 50% |
-| 💻 GitHub Repository | A well-documented repository showcasing the implementation | 10% |
-| 🎤 Technical Interview | A live evaluation of understanding, implementation, and problem-solving | 30% |
-
 ---
 
 ## 🎯 Week 1 — Task Brief
